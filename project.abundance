@@ -1,12 +1,21 @@
 {
     "atomType": "Molecule",
-    "name": "Office Chill Chair",
+    "name": "Office-Chill-Chair",
     "x": 0,
     "y": 0,
     "uniqueID": 1724967710950,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1724969630140,
+            "ioValues": []
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,

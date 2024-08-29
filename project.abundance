@@ -7,19 +7,19 @@
     "ioValues": [
         {
             "name": "Wood Thickness",
-            "ioValue": 10
+            "ioValue": 18
         },
         {
             "name": "Chair Height",
-            "ioValue": 10
+            "ioValue": 430
         },
         {
             "name": "Seat Width",
-            "ioValue": 10
+            "ioValue": 700
         },
         {
             "name": "Seat Depth",
-            "ioValue": 10
+            "ioValue": 400
         }
     ],
     "topLevel": true,
@@ -73,19 +73,19 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 10
+                    "ioValue": 430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 10
+                    "ioValue": 700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 10
+                    "ioValue": 400
                 }
             ],
             "topLevel": false,
@@ -144,19 +144,19 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 10
+                    "ioValue": 430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 10
+                    "ioValue": 700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 10
+                    "ioValue": 400
                 }
             ],
             "topLevel": false,
@@ -215,11 +215,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 700
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 400
                         }
                     ]
                 },
@@ -236,7 +236,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 18
                         }
                     ]
                 }
@@ -290,19 +290,19 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 10
+                    "ioValue": 430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 10
+                    "ioValue": 700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 10
+                    "ioValue": 400
                 }
             ],
             "topLevel": false,
@@ -361,19 +361,19 @@
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 10
+                    "ioValue": 430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 10
+                    "ioValue": 700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 10
+                    "ioValue": 400
                 }
             ],
             "topLevel": false,

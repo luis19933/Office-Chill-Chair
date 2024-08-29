@@ -167,7 +167,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724971277830,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724971717092
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -200,11 +205,81 @@
                     "y": 0.7552941176470588,
                     "uniqueID": 1724971278227,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.20520833333333333,
+                    "y": 0.611764705882353,
+                    "uniqueID": 1724971686168,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.31927083333333334,
+                    "y": 0.42823529411764705,
+                    "uniqueID": 1724971717092,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724971686168
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971278060,
+                    "ap2ID": 1724971717092
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971277779,
+                    "ap2ID": 1724971686168
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971278227,
+                    "ap2ID": 1724971686168
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724971686168,
+                    "ap2ID": 1724971717092
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971717092,
+                    "ap2ID": 1724971277830
+                }
+            ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",

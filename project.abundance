@@ -247,8 +247,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.19687500000000002,
-                            "y": 0.32,
+                            "x": 0.16822916666666665,
+                            "y": 0.3341176470588236,
                             "uniqueID": 1724972659124,
                             "ioValues": [
                                 {
@@ -269,9 +269,102 @@
                                     "ioValue": 100
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.26197916666666665,
+                            "y": 0.788235294117647,
+                            "uniqueID": 1724972692953,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1724972662748
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 400
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.3776041666666667,
+                            "y": 0.28705882352941176,
+                            "uniqueID": 1724972731797,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x + y",
+                            "x": 0.2682291666666667,
+                            "y": 0.43529411764705883,
+                            "uniqueID": 1724972737704,
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "y",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "currentEquation": "x + y"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x + y",
+                            "x": 0.27447916666666666,
+                            "y": 0.18588235294117647,
+                            "uniqueID": 1724972739758,
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 1
+                                },
+                                {
+                                    "name": "y",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "currentEquation": "x + y"
                         }
                     ],
                     "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972370699,
+                            "ap2ID": 1724972692953
+                        },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "diameter",
@@ -285,6 +378,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1724972370865,
                             "ap2ID": 1724972659124
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1724972662748,
+                            "ap2ID": 1724972692953
                         }
                     ],
                     "fileTypeVersion": 1,

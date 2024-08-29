@@ -247,8 +247,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.16822916666666665,
-                            "y": 0.3341176470588236,
+                            "x": 0.175,
+                            "y": 0.12235294117647058,
                             "uniqueID": 1724972659124,
                             "ioValues": [
                                 {
@@ -304,15 +304,15 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": 1724972659124
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 600
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 10
                                 },
                                 {
                                     "name": "zDist",
@@ -322,48 +322,54 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "x + y",
-                            "x": 0.2682291666666667,
-                            "y": 0.43529411764705883,
+                            "name": "D+(D/2)",
+                            "x": 0.23177083333333334,
+                            "y": 0.5011764705882353,
                             "uniqueID": 1724972737704,
                             "ioValues": [
                                 {
-                                    "name": "x",
-                                    "ioValue": 1
-                                },
-                                {
-                                    "name": "y",
-                                    "ioValue": 1
+                                    "name": "D",
+                                    "ioValue": 400
                                 }
                             ],
-                            "currentEquation": "x + y"
+                            "currentEquation": "D+(D/2)"
                         },
                         {
                             "atomType": "Equation",
-                            "name": "x + y",
-                            "x": 0.27447916666666666,
-                            "y": 0.18588235294117647,
+                            "name": "H",
+                            "x": 0.1921875,
+                            "y": 0.3388235294117647,
                             "uniqueID": 1724972739758,
                             "ioValues": [
                                 {
-                                    "name": "x",
-                                    "ioValue": 1
-                                },
-                                {
-                                    "name": "y",
-                                    "ioValue": 1
+                                    "name": "H",
+                                    "ioValue": 10
                                 }
                             ],
-                            "currentEquation": "x + y"
+                            "currentEquation": "H"
                         }
                     ],
                     "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "H",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972371110,
+                            "ap2ID": 1724972739758
+                        },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "xDist",
                             "ap2Primary": false,
                             "ap1ID": 1724972370699,
                             "ap2ID": 1724972692953
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "D",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972370699,
+                            "ap2ID": 1724972737704
                         },
                         {
                             "ap1Name": "number or geometry",
@@ -383,8 +389,29 @@
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
+                            "ap1ID": 1724972659124,
+                            "ap2ID": 1724972731797
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1724972662748,
                             "ap2ID": 1724972692953
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972737704,
+                            "ap2ID": 1724972731797
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "yDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972739758,
+                            "ap2ID": 1724972731797
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -403,7 +430,7 @@
                         },
                         {
                             "name": "Chair Height",
-                            "ioValue": 10
+                            "ioValue": 430
                         },
                         {
                             "name": "Seat Width",
@@ -707,6 +734,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724971257697,
                     "ap2ID": 1724972391058
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Chair Height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971257697,
+                    "ap2ID": 1724972381337
                 },
                 {
                     "ap1Name": "number or geometry",

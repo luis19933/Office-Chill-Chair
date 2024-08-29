@@ -313,7 +313,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724971294555,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724971887729
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -373,11 +378,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 700
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 300
                         }
                     ]
                 },
@@ -399,15 +404,36 @@
                     "ap2ID": 1724971887729
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971294651,
+                    "ap2ID": 1724971894462
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971887729,
+                    "ap2ID": 1724971294555
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1724971894462,
                     "ap2ID": 1724971887729
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971954732,
+                    "ap2ID": 1724971894462
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",

@@ -63,9 +63,372 @@
             "y": 0.7552941176470588,
             "uniqueID": 1724971218300,
             "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Sides",
+            "x": 0.17552083333333332,
+            "y": 0.24705882352941178,
+            "uniqueID": 1724971257442,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Chair Height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Depth",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724971257258,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.2988235294117647,
+                    "uniqueID": 1724971257593,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Chair Height",
+                    "x": 0.013333333333333334,
+                    "y": 0.4447058823529412,
+                    "uniqueID": 1724971257697,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Width",
+                    "x": 0.013333333333333334,
+                    "y": 0.5905882352941176,
+                    "uniqueID": 1724971257338,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Depth",
+                    "x": 0.013333333333333334,
+                    "y": 0.7552941176470588,
+                    "uniqueID": 1724971257250,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Seat",
+            "x": 0.21458333333333335,
+            "y": 0.5552941176470588,
+            "uniqueID": 1724971277787,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Chair Height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Depth",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724971277830,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.2988235294117647,
+                    "uniqueID": 1724971278060,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Chair Height",
+                    "x": 0.013333333333333334,
+                    "y": 0.4447058823529412,
+                    "uniqueID": 1724971277768,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Width",
+                    "x": 0.013333333333333334,
+                    "y": 0.5905882352941176,
+                    "uniqueID": 1724971277779,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Depth",
+                    "x": 0.013333333333333334,
+                    "y": 0.7552941176470588,
+                    "uniqueID": 1724971278227,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Back",
+            "x": 0.3010416666666667,
+            "y": 0.7811764705882354,
+            "uniqueID": 1724971294219,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Chair Height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Depth",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724971294555,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.2988235294117647,
+                    "uniqueID": 1724971294837,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Chair Height",
+                    "x": 0.013333333333333334,
+                    "y": 0.4447058823529412,
+                    "uniqueID": 1724971294247,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Width",
+                    "x": 0.013333333333333334,
+                    "y": 0.5905882352941176,
+                    "uniqueID": 1724971294651,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Depth",
+                    "x": 0.013333333333333334,
+                    "y": 0.7552941176470588,
+                    "uniqueID": 1724971294557,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Back Legs",
+            "x": 0.3255208333333333,
+            "y": 0.17176470588235296,
+            "uniqueID": 1724971312056,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Chair Height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Width",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Seat Depth",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724971312559,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.2988235294117647,
+                    "uniqueID": 1724971312651,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Chair Height",
+                    "x": 0.013333333333333334,
+                    "y": 0.4447058823529412,
+                    "uniqueID": 1724971312256,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Width",
+                    "x": 0.013333333333333334,
+                    "y": 0.5905882352941176,
+                    "uniqueID": 1724971312805,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Seat Depth",
+                    "x": 0.013333333333333334,
+                    "y": 0.7552941176470588,
+                    "uniqueID": 1724971312930,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1724971146119,
+            "ap2ID": 1724971257442
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1724971146119,
+            "ap2ID": 1724971312056
+        },
+        null,
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Chair Height",
+            "ap2Primary": false,
+            "ap1ID": 1724971157176,
+            "ap2ID": 1724971257442
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Chair Height",
+            "ap2Primary": false,
+            "ap1ID": 1724971157176,
+            "ap2ID": 1724971312056
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Chair Height",
+            "ap2Primary": false,
+            "ap1ID": 1724971157176,
+            "ap2ID": 1724971277787
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Seat Width",
+            "ap2Primary": false,
+            "ap1ID": 1724971160619,
+            "ap2ID": 1724971257442
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Seat Width",
+            "ap2Primary": false,
+            "ap1ID": 1724971160619,
+            "ap2ID": 1724971312056
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Seat Width",
+            "ap2Primary": false,
+            "ap1ID": 1724971160619,
+            "ap2ID": 1724971277787
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Seat Depth",
+            "ap2Primary": false,
+            "ap1ID": 1724971218300,
+            "ap2ID": 1724971257442
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Seat Depth",
+            "ap2Primary": false,
+            "ap1ID": 1724971218300,
+            "ap2ID": 1724971312056
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Seat Depth",
+            "ap2Primary": false,
+            "ap1ID": 1724971218300,
+            "ap2ID": 1724971277787
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},

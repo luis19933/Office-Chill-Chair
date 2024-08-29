@@ -693,8 +693,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Leg",
-                    "x": 0.28229166666666666,
-                    "y": 0.7835294117647059,
+                    "x": 0.2760416666666667,
+                    "y": 0.8094117647058824,
                     "uniqueID": 1724972391058,
                     "ioValues": [
                         {
@@ -711,7 +711,7 @@
                         },
                         {
                             "name": "Seat Depth",
-                            "ioValue": 10
+                            "ioValue": 400
                         },
                         {
                             "name": "Big Circle Diameter",
@@ -809,20 +809,20 @@
                         {
                             "atomType": "Equation",
                             "name": "-D/2",
-                            "x": 0.17135416666666667,
-                            "y": 0.4305882352941176,
+                            "x": 0.14322916666666669,
+                            "y": 0.42823529411764705,
                             "uniqueID": 1724973301102,
                             "ioValues": [
                                 {
                                     "name": "D",
-                                    "ioValue": 10
+                                    "ioValue": 400
                                 }
                             ],
                             "currentEquation": "-D/2"
                         },
                         {
                             "atomType": "Equation",
-                            "name": "H",
+                            "name": "-H",
                             "x": 0.15312499999999998,
                             "y": 0.2588235294117647,
                             "uniqueID": 1724973305578,
@@ -832,26 +832,26 @@
                                     "ioValue": 430
                                 }
                             ],
-                            "currentEquation": "H"
+                            "currentEquation": "-H"
                         },
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.29531250000000003,
-                            "y": 0.2611764705882353,
+                            "x": 0.2932291666666667,
+                            "y": 0.2847058823529412,
                             "uniqueID": 1724973313635,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": 1724973268217
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -5
+                                    "ioValue": -200
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 430
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "zDist",
@@ -906,19 +906,18 @@
                             "ap1ID": 1724972390785,
                             "ap2ID": 1724973268217
                         },
-                        null,
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1724973268217,
+                            "ap2ID": 1724973313635
+                        },
                         {
                             "ap1Name": "result",
                             "ap2Name": "xDist",
                             "ap2Primary": false,
                             "ap1ID": 1724973301102,
-                            "ap2ID": 1724973313635
-                        },
-                        {
-                            "ap1Name": "result",
-                            "ap2Name": "yDist",
-                            "ap2Primary": false,
-                            "ap1ID": 1724973305578,
                             "ap2ID": 1724973313635
                         }
                     ],
@@ -982,6 +981,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724971257250,
                     "ap2ID": 1724972370748
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Seat Depth",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971257250,
+                    "ap2ID": 1724972391058
                 },
                 {
                     "ap1Name": "number or geometry",

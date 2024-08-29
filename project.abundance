@@ -88,11 +88,11 @@
                     "ioValue": 400
                 },
                 {
-                    "name": "name1",
+                    "name": "Big Circle Diameter",
                     "ioValue": 10
                 },
                 {
-                    "name": "name2",
+                    "name": "Little Circle Diameter",
                     "ioValue": 10
                 }
             ],
@@ -140,7 +140,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "name1",
+                    "name": "Big Circle Diameter",
                     "x": 0.013333333333333334,
                     "y": 0.8470588235294118,
                     "uniqueID": 1724972283920,
@@ -148,11 +148,317 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "name2",
+                    "name": "Little Circle Diameter",
                     "x": 0.013333333333333334,
                     "y": 0.7341176470588235,
                     "uniqueID": 1724972302936,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Back",
+                    "x": 0.21406250000000002,
+                    "y": 0.22588235294117648,
+                    "uniqueID": 1724972370748,
+                    "ioValues": [
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Chair Height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Seat Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Seat Depth",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Big Circle Diameter",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Little Circle Diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724972371188,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.17882352941176471,
+                            "uniqueID": 1724972370684,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Chair Height",
+                            "x": 0.013333333333333334,
+                            "y": 0.2847058823529412,
+                            "uniqueID": 1724972371110,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Seat Width",
+                            "x": 0.013333333333333334,
+                            "y": 0.3835294117647059,
+                            "uniqueID": 1724972371269,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Seat Depth",
+                            "x": 0.013333333333333334,
+                            "y": 0.5082352941176471,
+                            "uniqueID": 1724972370699,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Big Circle Diameter",
+                            "x": 0.013333333333333334,
+                            "y": 0.8470588235294118,
+                            "uniqueID": 1724972370748,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Little Circle Diameter",
+                            "x": 0.013333333333333334,
+                            "y": 0.7341176470588235,
+                            "uniqueID": 1724972370865,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Center",
+                    "x": 0.265625,
+                    "y": 0.4564705882352941,
+                    "uniqueID": 1724972381337,
+                    "ioValues": [
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Chair Height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Seat Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Seat Depth",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Big Circle Diameter",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Little Circle Diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724972381361,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.17882352941176471,
+                            "uniqueID": 1724972381633,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Chair Height",
+                            "x": 0.013333333333333334,
+                            "y": 0.2847058823529412,
+                            "uniqueID": 1724972381077,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Seat Width",
+                            "x": 0.013333333333333334,
+                            "y": 0.3835294117647059,
+                            "uniqueID": 1724972381729,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Seat Depth",
+                            "x": 0.013333333333333334,
+                            "y": 0.5082352941176471,
+                            "uniqueID": 1724972381387,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Big Circle Diameter",
+                            "x": 0.013333333333333334,
+                            "y": 0.8470588235294118,
+                            "uniqueID": 1724972381205,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Little Circle Diameter",
+                            "x": 0.013333333333333334,
+                            "y": 0.7341176470588235,
+                            "uniqueID": 1724972380900,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.21614583333333334,
+                            "y": 0.3247058823529412,
+                            "uniqueID": 1724972417787,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 10
+                                }
+                            ]
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "diameter",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972381205,
+                            "ap2ID": 1724972417787
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Leg",
+                    "x": 0.31979166666666664,
+                    "y": 0.7364705882352941,
+                    "uniqueID": 1724972391058,
+                    "ioValues": [
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Chair Height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Seat Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Seat Depth",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Big Circle Diameter",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Little Circle Diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1724972391009,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.17882352941176471,
+                            "uniqueID": 1724972391616,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Chair Height",
+                            "x": 0.013333333333333334,
+                            "y": 0.2847058823529412,
+                            "uniqueID": 1724972391494,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Seat Width",
+                            "x": 0.013333333333333334,
+                            "y": 0.3835294117647059,
+                            "uniqueID": 1724972390721,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Seat Depth",
+                            "x": 0.013333333333333334,
+                            "y": 0.5082352941176471,
+                            "uniqueID": 1724972391293,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Big Circle Diameter",
+                            "x": 0.013333333333333334,
+                            "y": 0.8470588235294118,
+                            "uniqueID": 1724972390959,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Little Circle Diameter",
+                            "x": 0.013333333333333334,
+                            "y": 0.7341176470588235,
+                            "uniqueID": 1724972390785,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [],

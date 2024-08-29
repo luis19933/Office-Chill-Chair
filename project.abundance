@@ -784,6 +784,27 @@
                     "allConnectors": [],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.4635416666666667,
+                    "y": 0.24,
+                    "uniqueID": 1724973057084,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 1724972370748
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 1724972381337
+                        },
+                        {
+                            "name": "3D shape 3"
+                        }
+                    ],
+                    "unionType": "Assembly"
                 }
             ],
             "allConnectors": [
@@ -863,6 +884,27 @@
                     "ap2Primary": false,
                     "ap1ID": 1724972302936,
                     "ap2ID": 1724972391058
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1724972370748,
+                    "ap2ID": 1724973057084
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1724972381337,
+                    "ap2ID": 1724973057084
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1724972391058,
+                    "ap2ID": 1724973057084
                 }
             ],
             "fileTypeVersion": 1,

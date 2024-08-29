@@ -346,9 +346,66 @@
                     "y": 0.7552941176470588,
                     "uniqueID": 1724971294557,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.459375,
+                    "y": 0.571764705882353,
+                    "uniqueID": 1724971887729,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724971894462
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 18
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.1828125,
+                    "y": 0.7058823529411764,
+                    "uniqueID": 1724971894462,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Chair Back",
+                    "x": 0.09583333333333333,
+                    "y": 0.8352941176470589,
+                    "uniqueID": 1724971954732,
+                    "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971294837,
+                    "ap2ID": 1724971887729
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724971894462,
+                    "ap2ID": 1724971887729
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },

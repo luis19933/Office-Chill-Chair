@@ -86,6 +86,14 @@
                 {
                     "name": "Seat Depth",
                     "ioValue": 400
+                },
+                {
+                    "name": "name1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "name2",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -102,7 +110,7 @@
                     "atomType": "Input",
                     "name": "Wood Thickness",
                     "x": 0.013333333333333334,
-                    "y": 0.2988235294117647,
+                    "y": 0.17882352941176471,
                     "uniqueID": 1724971257593,
                     "ioValues": []
                 },
@@ -110,7 +118,7 @@
                     "atomType": "Input",
                     "name": "Chair Height",
                     "x": 0.013333333333333334,
-                    "y": 0.4447058823529412,
+                    "y": 0.2847058823529412,
                     "uniqueID": 1724971257697,
                     "ioValues": []
                 },
@@ -118,7 +126,7 @@
                     "atomType": "Input",
                     "name": "Seat Width",
                     "x": 0.013333333333333334,
-                    "y": 0.5905882352941176,
+                    "y": 0.3835294117647059,
                     "uniqueID": 1724971257338,
                     "ioValues": []
                 },
@@ -126,8 +134,24 @@
                     "atomType": "Input",
                     "name": "Seat Depth",
                     "x": 0.013333333333333334,
-                    "y": 0.7552941176470588,
+                    "y": 0.5082352941176471,
                     "uniqueID": 1724971257250,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name1",
+                    "x": 0.013333333333333334,
+                    "y": 0.8470588235294118,
+                    "uniqueID": 1724972283920,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name2",
+                    "x": 0.013333333333333334,
+                    "y": 0.7341176470588235,
+                    "uniqueID": 1724972302936,
                     "ioValues": []
                 }
             ],

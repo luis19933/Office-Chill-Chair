@@ -14,6 +14,50 @@
             "y": 0.5,
             "uniqueID": 1724969630140,
             "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.17916666666666667,
+            "y": 0.21176470588235294,
+            "uniqueID": 1724971110573,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724971110294,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.28125,
+            "y": 0.32,
+            "uniqueID": 1724971117454,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724971116850,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [],

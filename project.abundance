@@ -89,11 +89,11 @@
                 },
                 {
                     "name": "Big Circle Diameter",
-                    "ioValue": 10
+                    "ioValue": 100
                 },
                 {
                     "name": "Little Circle Diameter",
-                    "ioValue": 10
+                    "ioValue": 45
                 }
             ],
             "topLevel": false,
@@ -157,8 +157,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Back",
-                    "x": 0.21406250000000002,
-                    "y": 0.22588235294117648,
+                    "x": 0.15885416666666666,
+                    "y": 0.24941176470588236,
                     "uniqueID": 1724972370748,
                     "ioValues": [
                         {
@@ -252,8 +252,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 0.265625,
-                    "y": 0.4564705882352941,
+                    "x": 0.20208333333333334,
+                    "y": 0.49176470588235294,
                     "uniqueID": 1724972381337,
                     "ioValues": [
                         {
@@ -270,15 +270,15 @@
                         },
                         {
                             "name": "Seat Depth",
-                            "ioValue": 10
+                            "ioValue": 400
                         },
                         {
                             "name": "Big Circle Diameter",
-                            "ioValue": 10
+                            "ioValue": 100
                         },
                         {
                             "name": "Little Circle Diameter",
-                            "ioValue": 10
+                            "ioValue": 45
                         }
                     ],
                     "topLevel": false,
@@ -348,7 +348,65 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 100
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.2994791666666667,
+                            "y": 0.6658823529411765,
+                            "uniqueID": 1724972489150,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1724972417787
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 400
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "ShrinkWrap",
+                            "name": "Shrink Wrap",
+                            "x": 0.4526041666666667,
+                            "y": 0.36,
+                            "uniqueID": 1724972509364,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 1724972417787
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 1724972489150
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 1724972417787
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 1724972489150
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": ""
                                 }
                             ]
                         }
@@ -356,10 +414,38 @@
                     "allConnectors": [
                         {
                             "ap1Name": "number or geometry",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972381387,
+                            "ap2ID": 1724972489150
+                        },
+                        {
+                            "ap1Name": "number or geometry",
                             "ap2Name": "diameter",
                             "ap2Primary": false,
                             "ap1ID": 1724972381205,
                             "ap2ID": 1724972417787
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1724972417787,
+                            "ap2ID": 1724972489150
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972417787,
+                            "ap2ID": 1724972509364
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972489150,
+                            "ap2ID": 1724972509364
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -368,8 +454,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Leg",
-                    "x": 0.31979166666666664,
-                    "y": 0.7364705882352941,
+                    "x": 0.25625000000000003,
+                    "y": 0.7529411764705882,
                     "uniqueID": 1724972391058,
                     "ioValues": [
                         {
@@ -461,7 +547,29 @@
                     "compiledBom": {}
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Seat Depth",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971257250,
+                    "ap2ID": 1724972381337
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Big Circle Diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1724972283920,
+                    "ap2ID": 1724972381337
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Little Circle Diameter",
+                    "ap2Primary": false,
+                    "ap1ID": 1724972302936,
+                    "ap2ID": 1724972381337
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },

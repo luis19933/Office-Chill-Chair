@@ -167,7 +167,7 @@
                         },
                         {
                             "name": "Chair Height",
-                            "ioValue": 10
+                            "ioValue": 430
                         },
                         {
                             "name": "Seat Width",
@@ -194,7 +194,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1724972371188,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1724973019923
+                                }
+                            ]
                         },
                         {
                             "atomType": "Input",
@@ -312,7 +317,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 10
+                                    "ioValue": 430
                                 },
                                 {
                                     "name": "zDist",
@@ -337,16 +342,49 @@
                         {
                             "atomType": "Equation",
                             "name": "H",
-                            "x": 0.1921875,
-                            "y": 0.3388235294117647,
+                            "x": 0.19427083333333334,
+                            "y": 0.3035294117647059,
                             "uniqueID": 1724972739758,
                             "ioValues": [
                                 {
                                     "name": "H",
-                                    "ioValue": 10
+                                    "ioValue": 430
                                 }
                             ],
                             "currentEquation": "H"
+                        },
+                        {
+                            "atomType": "ShrinkWrap",
+                            "name": "Shrink Wrap",
+                            "x": 0.46718750000000003,
+                            "y": 0.6188235294117648,
+                            "uniqueID": 1724973019923,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 1724972731797
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 1724972692953
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": ""
+                                },
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 1724972731797
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 1724972692953
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": ""
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -400,6 +438,20 @@
                             "ap2ID": 1724972692953
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972692953,
+                            "ap2ID": 1724973019923
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 1724972731797,
+                            "ap2ID": 1724973019923
+                        },
+                        {
                             "ap1Name": "result",
                             "ap2Name": "xDist",
                             "ap2Primary": false,
@@ -412,16 +464,23 @@
                             "ap2Primary": false,
                             "ap1ID": 1724972739758,
                             "ap2ID": 1724972731797
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1724973019923,
+                            "ap2ID": 1724972371188
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 0.22604166666666664,
-                    "y": 0.47764705882352937,
+                    "x": 0.25260416666666663,
+                    "y": 0.4494117647058824,
                     "uniqueID": 1724972381337,
                     "ioValues": [
                         {
@@ -741,6 +800,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724971257697,
                     "ap2ID": 1724972381337
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Chair Height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971257697,
+                    "ap2ID": 1724972370748
                 },
                 {
                     "ap1Name": "number or geometry",

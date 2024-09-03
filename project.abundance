@@ -1667,6 +1667,10 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 1724971257442
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 1725402381901
                         }
                     ],
                     "unionType": "Assembly"
@@ -1699,8 +1703,8 @@
                 {
                     "atomType": "Equation",
                     "name": "T+(S/2)",
-                    "x": 0.13489583333333333,
-                    "y": 0.9623529411764706,
+                    "x": 0.16875,
+                    "y": 0.9011764705882352,
                     "uniqueID": 1725402334073,
                     "ioValues": [
                         {
@@ -1727,7 +1731,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 200
                         },
                         {
                             "name": "yDist",
@@ -1749,21 +1753,17 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "x + y",
+                    "name": "D/2",
                     "x": 0.13333333333333333,
                     "y": 0.7105882352941176,
                     "uniqueID": 1725402732080,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
+                            "name": "D",
+                            "ioValue": 400
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "D/2"
                 }
             ],
             "allConnectors": [
@@ -1849,6 +1849,27 @@
                     "ap2Name": "zDist",
                     "ap2Primary": false,
                     "ap1ID": 1725402334073,
+                    "ap2ID": 1725402381901
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402381901,
+                    "ap2ID": 1725402142766
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "D",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402460664,
+                    "ap2ID": 1725402732080
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402732080,
                     "ap2ID": 1725402381901
                 }
             ],

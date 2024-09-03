@@ -1542,6 +1542,10 @@
                 {
                     "name": "Seat Width",
                     "ioValue": 700
+                },
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -1597,8 +1601,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.21979166666666666,
-                    "y": 0.26823529411764707,
+                    "x": 0.18541666666666667,
+                    "y": 0.17882352941176471,
                     "uniqueID": 1725400508513,
                     "ioValues": [
                         {
@@ -1615,9 +1619,53 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 700
+                            "ioValue": 710
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.9435294117647058,
+                    "uniqueID": 1725402062822,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "T+S",
+                    "x": 0.14114583333333333,
+                    "y": 0.4894117647058823,
+                    "uniqueID": 1725402082164,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "S",
+                            "ioValue": 700
+                        }
+                    ],
+                    "currentEquation": "T+S"
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.8140625,
+                    "y": 0.36,
+                    "uniqueID": 1725402142766,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 1725400508513
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 1724971257442
+                        }
+                    ],
+                    "unionType": "Assembly"
                 }
             ],
             "allConnectors": [
@@ -1630,9 +1678,37 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1725400386683,
+                    "ap2ID": 1725402142766
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "S",
                     "ap2Primary": false,
                     "ap1ID": 1725400471462,
+                    "ap2ID": 1725402082164
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1725400508513,
+                    "ap2ID": 1725402142766
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402062822,
+                    "ap2ID": 1725402082164
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402082164,
                     "ap2ID": 1725400508513
                 }
             ],

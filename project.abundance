@@ -1522,25 +1522,13 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Putting it all together",
             "x": 0.5046875,
             "y": 0.47764705882352937,
             "uniqueID": 1725400206507,
             "ioValues": [
                 {
-                    "name": "Wood Thickness",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Chair Height",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Seat Width",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Seat Depth",
+                    "name": "Back",
                     "ioValue": 10
                 }
             ],
@@ -1556,34 +1544,34 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Wood Thickness",
+                    "name": "Back",
                     "x": 0.013333333333333334,
-                    "y": 0.2988235294117647,
-                    "uniqueID": 1725400206124,
+                    "y": 0.37176470588235294,
+                    "uniqueID": 1725400296212,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
-                    "name": "Chair Height",
+                    "name": "Side",
                     "x": 0.013333333333333334,
-                    "y": 0.4447058823529412,
-                    "uniqueID": 1725400206544,
+                    "y": 0.5952941176470588,
+                    "uniqueID": 1725400305990,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
-                    "name": "Seat Width",
+                    "name": "Back Legs",
                     "x": 0.013333333333333334,
-                    "y": 0.5905882352941176,
-                    "uniqueID": 1725400206340,
+                    "y": 0.7458823529411764,
+                    "uniqueID": 1725400307522,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
-                    "name": "Seat Depth",
+                    "name": "Seat",
                     "x": 0.013333333333333334,
-                    "y": 0.7552941176470588,
-                    "uniqueID": 1725400206697,
+                    "y": 0.47764705882352937,
+                    "uniqueID": 1725400309774,
                     "ioValues": []
                 }
             ],

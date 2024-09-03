@@ -1764,6 +1764,31 @@
                         }
                     ],
                     "currentEquation": "D/2"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4307291666666666,
+                    "y": 0.48,
+                    "uniqueID": 1725403554405,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 }
             ],
             "allConnectors": [

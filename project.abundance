@@ -1768,8 +1768,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4682291666666667,
-                    "y": 0.8376470588235293,
+                    "x": 0.421875,
+                    "y": 0.45882352941176474,
                     "uniqueID": 1725403554405,
                     "ioValues": [
                         {
@@ -1786,6 +1786,31 @@
                         },
                         {
                             "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.2989583333333333,
+                    "y": 0.38823529411764707,
+                    "uniqueID": 1725403730359,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
                             "ioValue": 0
                         }
                     ]

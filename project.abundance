@@ -1670,8 +1670,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.18072916666666666,
-                    "y": 0.7952941176470588,
+                    "x": 0.16302083333333334,
+                    "y": 0.7694117647058824,
                     "uniqueID": 1725402253277,
                     "ioValues": [
                         {
@@ -1684,36 +1684,54 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         }
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.3223958333333333,
-                    "y": 0.7388235294117647,
-                    "uniqueID": 1725402266473,
+                    "atomType": "Equation",
+                    "name": "T+S/2",
+                    "x": 0.12187500000000001,
+                    "y": 0.9011764705882352,
+                    "uniqueID": 1725402334073,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "S",
+                            "ioValue": 700
+                        }
+                    ],
+                    "currentEquation": "T+S/2"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.28125,
+                    "y": 0.7411764705882352,
+                    "uniqueID": 1725402381901,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": 1725402253277
                         },
                         {
-                            "name": "x-axis degrees",
+                            "name": "xDist",
                             "ioValue": 0
                         },
                         {
-                            "name": "y-axis degrees",
+                            "name": "yDist",
                             "ioValue": 0
                         },
                         {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
+                            "name": "zDist",
+                            "ioValue": 360
                         }
                     ]
                 }
@@ -1748,6 +1766,13 @@
                     "ap2ID": 1725402082164
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "S",
+                    "ap2Primary": false,
+                    "ap1ID": 1725400471462,
+                    "ap2ID": 1725402334073
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
@@ -1762,11 +1787,32 @@
                     "ap2ID": 1725402082164
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402062822,
+                    "ap2ID": 1725402334073
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
                     "ap2Primary": false,
                     "ap1ID": 1725402082164,
                     "ap2ID": 1725400508513
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1725402253277,
+                    "ap2ID": 1725402381901
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402334073,
+                    "ap2ID": 1725402381901
                 }
             ],
             "fileTypeVersion": 1,

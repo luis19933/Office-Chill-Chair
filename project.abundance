@@ -1523,8 +1523,8 @@
         {
             "atomType": "Molecule",
             "name": "Putting it all together",
-            "x": 0.5046875,
-            "y": 0.47764705882352937,
+            "x": 0.5432291666666667,
+            "y": 0.33176470588235296,
             "uniqueID": 1725400206507,
             "ioValues": [
                 {
@@ -1540,8 +1540,8 @@
                     "ioValue": 1724971277787
                 },
                 {
-                    "name": "name1",
-                    "ioValue": 10
+                    "name": "Seat Width",
+                    "ioValue": 700
                 }
             ],
             "topLevel": false,
@@ -1588,14 +1588,54 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "name1",
+                    "name": "Seat Width",
                     "x": 0.013333333333333334,
                     "y": 0.8164705882352942,
                     "uniqueID": 1725400471462,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.21979166666666666,
+                    "y": 0.26823529411764707,
+                    "uniqueID": 1725400508513,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724971257442
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 1724971257442
+                        }
+                    ]
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1725400386683,
+                    "ap2ID": 1725400508513
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1725400386683,
+                    "ap2ID": 1725400508513
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
@@ -1684,6 +1724,13 @@
             "ap2Primary": false,
             "ap1ID": 1724971160619,
             "ap2ID": 1724971294219
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Seat Width",
+            "ap2Primary": false,
+            "ap1ID": 1724971160619,
+            "ap2ID": 1725400206507
         },
         {
             "ap1Name": "number or geometry",

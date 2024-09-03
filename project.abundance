@@ -1768,8 +1768,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.421875,
-                    "y": 0.45882352941176474,
+                    "x": 0.3833333333333333,
+                    "y": 0.43999999999999995,
                     "uniqueID": 1725403554405,
                     "ioValues": [
                         {
@@ -1786,15 +1786,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 360
                         }
                     ]
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.2989583333333333,
-                    "y": 0.38823529411764707,
+                    "x": 0.28125,
+                    "y": 0.3482352941176471,
                     "uniqueID": 1725403730359,
                     "ioValues": [
                         {
@@ -1900,6 +1900,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1725402334073,
                     "ap2ID": 1725402381901
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402334073,
+                    "ap2ID": 1725403554405
                 },
                 {
                     "ap1Name": "geometry",

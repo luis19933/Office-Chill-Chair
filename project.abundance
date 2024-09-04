@@ -2034,7 +2034,7 @@
                 },
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "Seat Depth",
@@ -2117,7 +2117,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 710
+                            "ioValue": 718
                         }
                     ]
                 },
@@ -2138,7 +2138,7 @@
                     "ioValues": [
                         {
                             "name": "T",
-                            "ioValue": 10
+                            "ioValue": 18
                         },
                         {
                             "name": "S",
@@ -2150,8 +2150,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.8140625,
-                    "y": 0.36,
+                    "x": 0.8057291666666666,
+                    "y": 0.3976470588235294,
                     "uniqueID": 1725402142766,
                     "ioValues": [
                         {
@@ -2215,7 +2215,7 @@
                     "ioValues": [
                         {
                             "name": "T",
-                            "ioValue": 10
+                            "ioValue": 18
                         },
                         {
                             "name": "S",
@@ -2241,11 +2241,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": 18
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 360
+                            "ioValue": 368
                         }
                     ]
                 },
@@ -2292,7 +2292,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 360
+                            "ioValue": 368
                         }
                     ]
                 },
@@ -2334,7 +2334,7 @@
                         },
                         {
                             "name": "T",
-                            "ioValue": 10
+                            "ioValue": 18
                         }
                     ],
                     "currentEquation": "W-T"
@@ -2342,8 +2342,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4473958333333334,
-                    "y": 0.15764705882352942,
+                    "x": 0.3890625,
+                    "y": 0.22352941176470587,
                     "uniqueID": 1725487648862,
                     "ioValues": [
                         {
@@ -2360,7 +2360,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 18
                         }
                     ]
                 },
@@ -2385,7 +2385,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 690
+                            "ioValue": 682
                         }
                     ]
                 }
@@ -2653,6 +2653,13 @@
             "ap2Primary": false,
             "ap1ID": 1724971146119,
             "ap2ID": 1724971294219
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1724971146119,
+            "ap2ID": 1725400206507
         },
         {
             "ap1Name": "number or geometry",

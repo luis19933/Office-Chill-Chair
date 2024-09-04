@@ -1484,7 +1484,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1725405830441
+                            "ioValue": 1725487602660
                         }
                     ]
                 },
@@ -1686,8 +1686,8 @@
                 {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
-                    "x": 0.5151041666666667,
-                    "y": 0.5882352941176471,
+                    "x": 0.4520833333333333,
+                    "y": 0.571764705882353,
                     "uniqueID": 1725405776911,
                     "ioValues": [
                         {
@@ -1727,8 +1727,8 @@
                 {
                     "atomType": "Join",
                     "name": "Fusion",
-                    "x": 0.6786458333333333,
-                    "y": 0.30823529411764705,
+                    "x": 0.5885416666666666,
+                    "y": 0.291764705882353,
                     "uniqueID": 1725405830441,
                     "ioValues": [
                         {
@@ -1741,9 +1741,33 @@
                         }
                     ],
                     "unionType": "Fusion"
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.7619791666666667,
+                    "y": 0.4,
+                    "uniqueID": 1725487602660,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1725405830441
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 18
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724971312651,
+                    "ap2ID": 1725487602660
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
@@ -1865,9 +1889,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1725405830441,
+                    "ap2ID": 1725487602660
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1725405830441,
+                    "ap1ID": 1725487602660,
                     "ap2ID": 1724971312559
                 }
             ],
@@ -2194,6 +2225,31 @@
                         }
                     ],
                     "currentEquation": "x + y"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5083333333333333,
+                    "y": 0.24,
+                    "uniqueID": 1725487648862,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -2225,6 +2281,7 @@
                     "ap1ID": 1725400390335,
                     "ap2ID": 1725402253277
                 },
+                null,
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "S",

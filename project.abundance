@@ -107,7 +107,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1724973582848
+                            "ioValue": 1725489174340
                         }
                     ]
                 },
@@ -1016,6 +1016,24 @@
                             "ioValue": 18
                         }
                     ]
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.6666666666666666,
+                    "y": 0.5858823529411765,
+                    "uniqueID": 1725489174340,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724973582848
+                        }
+                    ],
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -1140,9 +1158,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724973582848,
+                    "ap2ID": 1725489174340
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1724973582848,
+                    "ap1ID": 1725489174340,
                     "ap2ID": 1724971257258
                 }
             ],
@@ -2490,6 +2515,57 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Tag",
+            "name": ",cutLayout",
+            "x": 0.5041666666666667,
+            "y": 0.7576470588235295,
+            "uniqueID": 1725489141138,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "tags": [
+                "",
+                "cutLayout"
+            ],
+            "cutTag": true
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6598958333333333,
+            "y": 0.5505882352941176,
+            "uniqueID": 1725489191969,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1725400206507
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 19
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Sheet Padding",
+                    "ioValue": 76
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -2646,6 +2722,13 @@
             "ap2Primary": false,
             "ap1ID": 1724971312056,
             "ap2ID": 1725400206507
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1725400206507,
+            "ap2ID": 1725489191969
         }
     ],
     "unitsKey": "MM",

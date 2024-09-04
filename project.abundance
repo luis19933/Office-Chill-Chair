@@ -1380,7 +1380,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1724971887729
+                            "ioValue": 1725489613261
                         }
                     ]
                 },
@@ -1457,6 +1457,24 @@
                     "y": 0.8352941176470589,
                     "uniqueID": 1724971954732,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.5802083333333333,
+                    "y": 0.6541176470588235,
+                    "uniqueID": 1725489613261,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724971887729
+                        }
+                    ],
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -1476,10 +1494,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1724971887729,
-                    "ap2ID": 1724971294555
+                    "ap2ID": 1725489613261
                 },
                 {
                     "ap1Name": "geometry",
@@ -1494,6 +1512,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724971954732,
                     "ap2ID": 1724971894462
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1725489613261,
+                    "ap2ID": 1724971294555
                 }
             ],
             "fileTypeVersion": 1,
@@ -1534,7 +1559,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1725487602660
+                            "ioValue": 1725489580729
                         }
                     ]
                 },
@@ -1808,6 +1833,24 @@
                             "ioValue": 18
                         }
                     ]
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.8442708333333333,
+                    "y": 0.6070588235294118,
+                    "uniqueID": 1725489580729,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1725487602660
+                        }
+                    ],
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -1946,9 +1989,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1725487602660,
+                    "ap2ID": 1725489580729
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1725487602660,
+                    "ap1ID": 1725489580729,
                     "ap2ID": 1724971312559
                 }
             ],
@@ -2542,30 +2592,16 @@
             "compiledBom": []
         },
         {
-            "atomType": "Tag",
-            "name": ",cutLayout",
-            "x": 0.5041666666666667,
-            "y": 0.7576470588235295,
-            "uniqueID": 1725489141138,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ],
-            "tags": [
-                "",
-                "cutLayout"
-            ],
-            "cutTag": true
-        },
-        {
             "atomType": "CutLayout",
             "name": "Cut Layout",
             "x": 0.6859375,
             "y": 0.6870588235294118,
             "uniqueID": 1725489191969,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1725400206507
+                },
                 {
                     "name": "Material Thickness",
                     "ioValue": 19
@@ -2743,6 +2779,13 @@
             "ap2Primary": false,
             "ap1ID": 1724971312056,
             "ap2ID": 1725400206507
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1725400206507,
+            "ap2ID": 1725489191969
         }
     ],
     "unitsKey": "MM",

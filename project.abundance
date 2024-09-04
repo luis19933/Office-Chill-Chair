@@ -2229,9 +2229,34 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5083333333333333,
-                    "y": 0.24,
+                    "x": 0.4473958333333334,
+                    "y": 0.15764705882352942,
                     "uniqueID": 1725487648862,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724971312056
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.578125,
+                    "y": 0.26823529411764707,
+                    "uniqueID": 1725487707159,
                     "ioValues": [
                         {
                             "name": "geometry",
@@ -2281,7 +2306,13 @@
                     "ap1ID": 1725400390335,
                     "ap2ID": 1725402253277
                 },
-                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1725400392838,
+                    "ap2ID": 1725487648862
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "S",
@@ -2323,6 +2354,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1725402062822,
                     "ap2ID": 1725402381901
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402062822,
+                    "ap2ID": 1725487648862
                 },
                 {
                     "ap1Name": "result",

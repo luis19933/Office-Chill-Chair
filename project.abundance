@@ -2251,7 +2251,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -15
+                            "ioValue": -30
                         },
                         {
                             "name": "zDist",
@@ -2262,8 +2262,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5875,
-                    "y": 0.7552941176470588,
+                    "x": 0.5833333333333334,
+                    "y": 0.7388235294117647,
                     "uniqueID": 1725487707159,
                     "ioValues": [
                         {
@@ -2276,7 +2276,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -15
+                            "ioValue": -27
                         },
                         {
                             "name": "zDist",

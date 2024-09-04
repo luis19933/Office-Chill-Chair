@@ -2387,21 +2387,45 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "x + y",
-                    "x": 0.39322916666666663,
-                    "y": 0.8188235294117647,
+                    "name": "arcsin(H/(D/2)",
+                    "x": 0.39947916666666666,
+                    "y": 0.7858823529411765,
                     "uniqueID": 1725493586483,
                     "ioValues": [
                         {
-                            "name": "x",
+                            "name": "a",
                             "ioValue": 1
                         },
                         {
-                            "name": "y",
+                            "name": "r",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "c",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "s",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "i",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "n",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "H",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "D",
                             "ioValue": 1
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "arcsin(H/(D/2)"
                 }
             ],
             "allConnectors": [

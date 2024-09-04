@@ -2323,7 +2323,7 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "W+T",
+                    "name": "W",
                     "x": 0.4739583333333333,
                     "y": 0.9035294117647059,
                     "uniqueID": 1725404231661,
@@ -2331,13 +2331,9 @@
                         {
                             "name": "W",
                             "ioValue": 700
-                        },
-                        {
-                            "name": "T",
-                            "ioValue": 18
                         }
                     ],
-                    "currentEquation": "W+T"
+                    "currentEquation": "W"
                 },
                 {
                     "atomType": "Move",
@@ -2385,7 +2381,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 718
+                            "ioValue": 700
                         }
                     ]
                 }
@@ -2488,13 +2484,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1725402062822,
                     "ap2ID": 1725487648862
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "T",
-                    "ap2Primary": false,
-                    "ap1ID": 1725402062822,
-                    "ap2ID": 1725404231661
                 },
                 {
                     "ap1Name": "result",

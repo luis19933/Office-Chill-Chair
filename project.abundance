@@ -1177,8 +1177,8 @@
         {
             "atomType": "Molecule",
             "name": "Seat",
-            "x": 0.27239583333333334,
-            "y": 0.7129411764705882,
+            "x": 0.2682291666666667,
+            "y": 0.6752941176470588,
             "uniqueID": 1724971277787,
             "ioValues": [
                 {
@@ -1348,8 +1348,8 @@
         {
             "atomType": "Molecule",
             "name": "Back",
-            "x": 0.18697916666666667,
-            "y": 0.9035294117647059,
+            "x": 0.2359375,
+            "y": 0.8541176470588235,
             "uniqueID": 1724971294219,
             "ioValues": [
                 {
@@ -2562,21 +2562,17 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6598958333333333,
-            "y": 0.5505882352941176,
+            "x": 0.6859375,
+            "y": 0.6870588235294118,
             "uniqueID": 1725489191969,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1725400206507
-                },
                 {
                     "name": "Material Thickness",
                     "ioValue": 19
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 1100
+                    "ioValue": 1200
                 },
                 {
                     "name": "Sheet Height",
@@ -2747,13 +2743,6 @@
             "ap2Primary": false,
             "ap1ID": 1724971312056,
             "ap2ID": 1725400206507
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1725400206507,
-            "ap2ID": 1725489191969
         }
     ],
     "unitsKey": "MM",

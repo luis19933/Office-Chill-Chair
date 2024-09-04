@@ -1949,7 +1949,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1725400205941,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1725402142766
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -2400,6 +2405,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1725402142766,
+                    "ap2ID": 1725400205941
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1725402253277,
@@ -2477,7 +2489,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
     "allConnectors": [

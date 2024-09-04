@@ -2384,50 +2384,6 @@
                             "ioValue": 695
                         }
                     ]
-                },
-                {
-                    "atomType": "Code",
-                    "name": "Code",
-                    "x": 0.7864583333333333,
-                    "y": 0.8329411764705883,
-                    "uniqueID": 1725493804847,
-                    "ioValues": [
-                        {
-                            "name": "input1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 695
-                        }
-                    ],
-                    "codeVersion": 1,
-                    "code": "//Inputs:[input1, height];\n\nlet shape = drawRectangle(5,7)\n\nconst newPlane = new Plane().pivot(0, 'Y');\n\n return -1*height;\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.8864583333333333,
-                    "y": 0.6870588235294118,
-                    "uniqueID": 1725493938498,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1725487707159
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 1725493804847
-                        }
-                    ]
                 }
             ],
             "allConnectors": [
@@ -2600,13 +2556,6 @@
                     "ap2ID": 1725487707159
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "height",
-                    "ap2Primary": false,
-                    "ap1ID": 1725404231661,
-                    "ap2ID": 1725493804847
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 5",
                     "ap2Primary": false,
@@ -2619,20 +2568,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1725487707159,
                     "ap2ID": 1725402142766
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1725487707159,
-                    "ap2ID": 1725493938498
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "zDist",
-                    "ap2Primary": false,
-                    "ap1ID": 1725493804847,
-                    "ap2ID": 1725493938498
                 }
             ],
             "fileTypeVersion": 1,

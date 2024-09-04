@@ -1177,8 +1177,8 @@
         {
             "atomType": "Molecule",
             "name": "Seat",
-            "x": 0.2713541666666667,
-            "y": 0.7082352941176471,
+            "x": 0.27239583333333334,
+            "y": 0.7129411764705882,
             "uniqueID": 1724971277787,
             "ioValues": [
                 {
@@ -1209,7 +1209,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1724971717092
+                            "ioValue": 1725489307059
                         }
                     ]
                 },
@@ -1278,6 +1278,24 @@
                             "ioValue": 18
                         }
                     ]
+                },
+                {
+                    "atomType": "Tag",
+                    "name": ",cutLayout",
+                    "x": 0.47708333333333336,
+                    "y": 0.6494117647058824,
+                    "uniqueID": 1725489307059,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724971717092
+                        }
+                    ],
+                    "tags": [
+                        "",
+                        "cutLayout"
+                    ],
+                    "cutTag": true
                 }
             ],
             "allConnectors": [
@@ -1311,9 +1329,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724971717092,
+                    "ap2ID": 1725489307059
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1724971717092,
+                    "ap1ID": 1725489307059,
                     "ap2ID": 1724971277830
                 }
             ],

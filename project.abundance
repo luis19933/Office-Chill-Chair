@@ -30,7 +30,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1724969630140,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1725400206507
+                }
+            ]
         },
         {
             "atomType": "Input",
@@ -2764,10 +2769,17 @@
             "ap2Primary": false,
             "ap1ID": 1724971312056,
             "ap2ID": 1725400206507
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1725400206507,
+            "ap2ID": 1724969630140
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }

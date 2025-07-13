@@ -11,17 +11,18 @@
         },
         {
             "name": "Chair Height",
-            "ioValue": 430
+            "ioValue": 4430
         },
         {
             "name": "Seat Width",
-            "ioValue": 700
+            "ioValue": 7700
         },
         {
             "name": "Seat Depth",
-            "ioValue": 400
+            "ioValue": 4400
         }
     ],
+    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
         {
@@ -35,39 +36,44 @@
                     "name": "number or geometry",
                     "ioValue": 1725400206507
                 }
-            ]
+            ],
+            "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Input",
             "name": "Wood Thickness",
-            "x": 0.013333333333333334,
+            "x": 0.025384615384615384,
             "y": 0.2988235294117647,
             "uniqueID": 1724971146119,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Input",
             "name": "Chair Height",
-            "x": 0.013333333333333334,
+            "x": 0.025384615384615384,
             "y": 0.4447058823529412,
             "uniqueID": 1724971157176,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Input",
             "name": "Seat Width",
-            "x": 0.013333333333333334,
+            "x": 0.025384615384615384,
             "y": 0.5905882352941176,
             "uniqueID": 1724971160619,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Input",
             "name": "Seat Depth",
-            "x": 0.013333333333333334,
+            "x": 0.025384615384615384,
             "y": 0.7552941176470588,
             "uniqueID": 1724971218300,
-            "ioValues": []
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
             "atomType": "Molecule",
@@ -82,15 +88,15 @@
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 430
+                    "ioValue": 4430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 700
+                    "ioValue": 7700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 400
+                    "ioValue": 4400
                 },
                 {
                     "name": "Big Circle Diameter",
@@ -101,6 +107,7 @@
                     "ioValue": 45
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -114,55 +121,62 @@
                             "name": "number or geometry",
                             "ioValue": 1725489174340
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.17882352941176471,
                     "uniqueID": 1724971257593,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Chair Height",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.2847058823529412,
                     "uniqueID": 1724971257697,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Width",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.3835294117647059,
                     "uniqueID": 1724971257338,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Depth",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.5082352941176471,
                     "uniqueID": 1724971257250,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Big Circle Diameter",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.8470588235294118,
                     "uniqueID": 1724972283920,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Little Circle Diameter",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.7341176470588235,
                     "uniqueID": 1724972302936,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Molecule",
@@ -177,7 +191,7 @@
                         },
                         {
                             "name": "Chair Height",
-                            "ioValue": 430
+                            "ioValue": 4430
                         },
                         {
                             "name": "Seat Width",
@@ -185,7 +199,7 @@
                         },
                         {
                             "name": "Seat Depth",
-                            "ioValue": 400
+                            "ioValue": 4400
                         },
                         {
                             "name": "Big Circle Diameter",
@@ -196,6 +210,7 @@
                             "ioValue": 45
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -209,55 +224,62 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724973019923
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Wood Thickness",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.17882352941176471,
                             "uniqueID": 1724972370684,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Chair Height",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.2847058823529412,
                             "uniqueID": 1724972371110,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Seat Width",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.3835294117647059,
                             "uniqueID": 1724972371269,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Seat Depth",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.5082352941176471,
                             "uniqueID": 1724972370699,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Big Circle Diameter",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.8470588235294118,
                             "uniqueID": 1724972370748,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Little Circle Diameter",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.7341176470588235,
                             "uniqueID": 1724972370865,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Circle",
@@ -270,7 +292,8 @@
                                     "name": "diameter",
                                     "ioValue": 45
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Circle",
@@ -283,7 +306,8 @@
                                     "name": "diameter",
                                     "ioValue": 100
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Move",
@@ -298,7 +322,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 400
+                                    "ioValue": 4400
                                 },
                                 {
                                     "name": "yDist",
@@ -308,7 +332,8 @@
                                     "name": "zDist",
                                     "ioValue": 0
                                 }
-                            ]
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
                             "atomType": "Move",
@@ -323,17 +348,18 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 600
+                                    "ioValue": 6600
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 430
+                                    "ioValue": 4430
                                 },
                                 {
                                     "name": "zDist",
                                     "ioValue": 0
                                 }
-                            ]
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
                             "atomType": "Equation",
@@ -344,9 +370,10 @@
                             "ioValues": [
                                 {
                                     "name": "D",
-                                    "ioValue": 400
+                                    "ioValue": 4400
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "D+(D/2)"
                         },
                         {
@@ -358,9 +385,10 @@
                             "ioValues": [
                                 {
                                     "name": "H",
-                                    "ioValue": 430
+                                    "ioValue": 4430
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "H"
                         },
                         {
@@ -394,7 +422,8 @@
                                     "name": "3D shape 3",
                                     "ioValue": ""
                                 }
-                            ]
+                            ],
+                            "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                         }
                     ],
                     "allConnectors": [
@@ -499,7 +528,7 @@
                         },
                         {
                             "name": "Chair Height",
-                            "ioValue": 430
+                            "ioValue": 4430
                         },
                         {
                             "name": "Seat Width",
@@ -507,7 +536,7 @@
                         },
                         {
                             "name": "Seat Depth",
-                            "ioValue": 400
+                            "ioValue": 4400
                         },
                         {
                             "name": "Big Circle Diameter",
@@ -518,6 +547,7 @@
                             "ioValue": 45
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -531,55 +561,62 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724972509364
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Wood Thickness",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.17882352941176471,
                             "uniqueID": 1724972381633,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Chair Height",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.2847058823529412,
                             "uniqueID": 1724972381077,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Seat Width",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.3835294117647059,
                             "uniqueID": 1724972381729,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Seat Depth",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.5082352941176471,
                             "uniqueID": 1724972381387,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Big Circle Diameter",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.8470588235294118,
                             "uniqueID": 1724972381205,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Little Circle Diameter",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.7341176470588235,
                             "uniqueID": 1724972380900,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Circle",
@@ -592,7 +629,8 @@
                                     "name": "diameter",
                                     "ioValue": 100
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Move",
@@ -607,7 +645,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 400
+                                    "ioValue": 4400
                                 },
                                 {
                                     "name": "yDist",
@@ -617,7 +655,8 @@
                                     "name": "zDist",
                                     "ioValue": 0
                                 }
-                            ]
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
                             "atomType": "ShrinkWrap",
@@ -650,7 +689,8 @@
                                     "name": "3D shape 3",
                                     "ioValue": ""
                                 }
-                            ]
+                            ],
+                            "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                         }
                     ],
                     "allConnectors": [
@@ -713,7 +753,7 @@
                         },
                         {
                             "name": "Chair Height",
-                            "ioValue": 430
+                            "ioValue": 4430
                         },
                         {
                             "name": "Seat Width",
@@ -721,7 +761,7 @@
                         },
                         {
                             "name": "Seat Depth",
-                            "ioValue": 400
+                            "ioValue": 4400
                         },
                         {
                             "name": "Big Circle Diameter",
@@ -732,6 +772,7 @@
                             "ioValue": 45
                         }
                     ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -745,55 +786,62 @@
                                     "name": "number or geometry",
                                     "ioValue": 1724973328978
                                 }
-                            ]
+                            ],
+                            "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
                             "atomType": "Input",
                             "name": "Wood Thickness",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.17882352941176471,
                             "uniqueID": 1724972391616,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Chair Height",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.2847058823529412,
                             "uniqueID": 1724972391494,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Seat Width",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.3835294117647059,
                             "uniqueID": 1724972390721,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Seat Depth",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.5082352941176471,
                             "uniqueID": 1724972391293,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Big Circle Diameter",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.8470588235294118,
                             "uniqueID": 1724972390959,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Input",
                             "name": "Little Circle Diameter",
-                            "x": 0.013333333333333334,
+                            "x": 0.025384615384615384,
                             "y": 0.7341176470588235,
                             "uniqueID": 1724972390785,
-                            "ioValues": []
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                         },
                         {
                             "atomType": "Circle",
@@ -806,7 +854,8 @@
                                     "name": "diameter",
                                     "ioValue": 45
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Circle",
@@ -819,7 +868,8 @@
                                     "name": "diameter",
                                     "ioValue": 100
                                 }
-                            ]
+                            ],
+                            "description": "Creates a new circle."
                         },
                         {
                             "atomType": "Equation",
@@ -830,9 +880,10 @@
                             "ioValues": [
                                 {
                                     "name": "D",
-                                    "ioValue": 400
+                                    "ioValue": 4400
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "-D/2"
                         },
                         {
@@ -844,9 +895,10 @@
                             "ioValues": [
                                 {
                                     "name": "H",
-                                    "ioValue": 430
+                                    "ioValue": 4430
                                 }
                             ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "-H"
                         },
                         {
@@ -862,17 +914,18 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -200
+                                    "ioValue": -2200
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -430
+                                    "ioValue": -4430
                                 },
                                 {
                                     "name": "zDist",
                                     "ioValue": 0
                                 }
-                            ]
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
                             "atomType": "ShrinkWrap",
@@ -905,7 +958,8 @@
                                     "name": "3D shape 3",
                                     "ioValue": ""
                                 }
-                            ]
+                            ],
+                            "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                         }
                     ],
                     "allConnectors": [
@@ -984,7 +1038,7 @@
                     "compiledBom": []
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Fusion",
                     "name": "Fusion",
                     "x": 0.4614583333333333,
                     "y": 0.5976470588235294,
@@ -1003,6 +1057,7 @@
                             "ioValue": 1724972391058
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
                 },
                 {
@@ -1020,7 +1075,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Tag",
@@ -1034,11 +1090,11 @@
                             "ioValue": 1724973582848
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1192,17 +1248,18 @@
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 430
+                    "ioValue": 4430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 700
+                    "ioValue": 7700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 400
+                    "ioValue": 4400
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1216,39 +1273,44 @@
                             "name": "number or geometry",
                             "ioValue": 1725489307059
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.2988235294117647,
                     "uniqueID": 1724971278060,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Chair Height",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.4447058823529412,
                     "uniqueID": 1724971277768,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Width",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.5905882352941176,
                     "uniqueID": 1724971277779,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Depth",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.7552941176470588,
                     "uniqueID": 1724971278227,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Rectangle",
@@ -1259,13 +1321,14 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 700
+                            "ioValue": 7700
                         },
                         {
                             "name": "y length",
-                            "ioValue": 400
+                            "ioValue": 4400
                         }
-                    ]
+                    ],
+                    "description": "Creates a new rectangle."
                 },
                 {
                     "atomType": "Extrude",
@@ -1282,7 +1345,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Tag",
@@ -1296,11 +1360,11 @@
                             "ioValue": 1724971717092
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1363,17 +1427,18 @@
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 430
+                    "ioValue": 4430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 700
+                    "ioValue": 7700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 400
+                    "ioValue": 4400
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1387,39 +1452,44 @@
                             "name": "number or geometry",
                             "ioValue": 1725489613261
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.2988235294117647,
                     "uniqueID": 1724971294837,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Chair Height",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.4447058823529412,
                     "uniqueID": 1724971294247,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Width",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.5905882352941176,
                     "uniqueID": 1724971294651,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Depth",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.7552941176470588,
                     "uniqueID": 1724971294557,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Extrude",
@@ -1436,7 +1506,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Rectangle",
@@ -1447,13 +1518,14 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 700
+                            "ioValue": 7700
                         },
                         {
                             "name": "y length",
-                            "ioValue": 300
+                            "ioValue": 10
                         }
-                    ]
+                    ],
+                    "description": "Creates a new rectangle."
                 },
                 {
                     "atomType": "Constant",
@@ -1461,7 +1533,9 @@
                     "x": 0.09583333333333333,
                     "y": 0.8352941176470589,
                     "uniqueID": 1724971954732,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Defines a mathematical constant.",
+                    "value": 10
                 },
                 {
                     "atomType": "Tag",
@@ -1475,11 +1549,11 @@
                             "ioValue": 1724971887729
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1542,17 +1616,18 @@
                 },
                 {
                     "name": "Chair Height",
-                    "ioValue": 430
+                    "ioValue": 4430
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 700
+                    "ioValue": 7700
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 400
+                    "ioValue": 4400
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1566,39 +1641,44 @@
                             "name": "number or geometry",
                             "ioValue": 1725489580729
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.2988235294117647,
                     "uniqueID": 1724971312651,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Chair Height",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.4447058823529412,
                     "uniqueID": 1724971312256,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Width",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.5905882352941176,
                     "uniqueID": 1724971312805,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Depth",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.7552941176470588,
                     "uniqueID": 1724971312930,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Circle",
@@ -1611,7 +1691,8 @@
                             "name": "diameter",
                             "ioValue": 45
                         }
-                    ]
+                    ],
+                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Move",
@@ -1626,7 +1707,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 400
+                            "ioValue": 4400
                         },
                         {
                             "name": "yDist",
@@ -1636,7 +1717,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "ShrinkWrap",
@@ -1669,7 +1751,8 @@
                             "name": "3D shape 3",
                             "ioValue": ""
                         }
-                    ]
+                    ],
+                    "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                 },
                 {
                     "atomType": "Equation",
@@ -1680,9 +1763,10 @@
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 400
+                            "ioValue": 4400
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "D-50"
                 },
                 {
@@ -1698,7 +1782,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 350
+                            "ioValue": 4350
                         },
                         {
                             "name": "yDist",
@@ -1708,7 +1792,8 @@
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -1723,17 +1808,18 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 550
+                            "ioValue": 4550
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -368.57142857142856
+                            "ioValue": -3797.142857142857
                         },
                         {
                             "name": "zDist",
                             "ioValue": 0
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Equation",
@@ -1744,9 +1830,10 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 430
+                            "ioValue": 4430
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "(-6/7)*H"
                 },
                 {
@@ -1758,9 +1845,10 @@
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 400
+                            "ioValue": 4400
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "D+150"
                 },
                 {
@@ -1802,10 +1890,11 @@
                             "name": "3D shape 4",
                             "ioValue": ""
                         }
-                    ]
+                    ],
+                    "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Fusion",
                     "name": "Fusion",
                     "x": 0.5885416666666666,
                     "y": 0.291764705882353,
@@ -1820,6 +1909,7 @@
                             "ioValue": 1725405776911
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
                 },
                 {
@@ -1837,7 +1927,8 @@
                             "name": "height",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
                     "atomType": "Tag",
@@ -1851,11 +1942,11 @@
                             "ioValue": 1725487602660
                         }
                     ],
+                    "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "",
                         "cutLayout"
-                    ],
-                    "cutTag": true
+                    ]
                 }
             ],
             "allConnectors": [
@@ -2035,7 +2126,7 @@
                 },
                 {
                     "name": "Seat Width",
-                    "ioValue": 700
+                    "ioValue": 7700
                 },
                 {
                     "name": "Wood Thickness",
@@ -2043,9 +2134,10 @@
                 },
                 {
                     "name": "Seat Depth",
-                    "ioValue": 400
+                    "ioValue": 4400
                 }
             ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
                 {
@@ -2059,47 +2151,53 @@
                             "name": "number or geometry",
                             "ioValue": 1725402142766
                         }
-                    ]
+                    ],
+                    "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Input",
                     "name": "Back",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.1811764705882353,
                     "uniqueID": 1725400296212,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Side",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.2635294117647059,
                     "uniqueID": 1725400386683,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.5223529411764706,
                     "uniqueID": 1725400390335,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Back legs",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.3623529411764706,
                     "uniqueID": 1725400392838,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Width",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.8,
                     "uniqueID": 1725400471462,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Move",
@@ -2122,17 +2220,19 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 718
+                            "ioValue": 7718
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.9741176470588236,
                     "uniqueID": 1725402062822,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Equation",
@@ -2147,13 +2247,14 @@
                         },
                         {
                             "name": "S",
-                            "ioValue": 700
+                            "ioValue": 7700
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "T+S"
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.8057291666666666,
                     "y": 0.3976470588235294,
@@ -2184,6 +2285,7 @@
                             "ioValue": 1725487707159
                         }
                     ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Assembly"
                 },
                 {
@@ -2209,7 +2311,8 @@
                             "name": "z-axis degrees",
                             "ioValue": 90
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Equation",
@@ -2224,9 +2327,10 @@
                         },
                         {
                             "name": "S",
-                            "ioValue": 700
+                            "ioValue": 7700
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "T+(S/2)-5"
                 },
                 {
@@ -2242,7 +2346,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 200
+                            "ioValue": 2200
                         },
                         {
                             "name": "yDist",
@@ -2250,17 +2354,19 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 363
+                            "ioValue": 3863
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Input",
                     "name": "Seat Depth",
-                    "x": 0.013333333333333334,
+                    "x": 0.025384615384615384,
                     "y": 0.7082352941176471,
                     "uniqueID": 1725402460664,
-                    "ioValues": []
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
                 },
                 {
                     "atomType": "Equation",
@@ -2271,9 +2377,10 @@
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 400
+                            "ioValue": 4400
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "D/2"
                 },
                 {
@@ -2297,9 +2404,10 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 363
+                            "ioValue": 3863
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Rotate",
@@ -2324,7 +2432,8 @@
                             "name": "z-axis degrees",
                             "ioValue": -28
                         }
-                    ]
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
                     "atomType": "Equation",
@@ -2335,9 +2444,10 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 700
+                            "ioValue": 7700
                         }
                     ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "W-5"
                 },
                 {
@@ -2363,7 +2473,8 @@
                             "name": "zDist",
                             "ioValue": 18
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
                     "atomType": "Move",
@@ -2386,9 +2497,10 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 695
+                            "ioValue": 7695
                         }
-                    ]
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -2586,26 +2698,20 @@
             "uniqueID": 1725489191969,
             "ioValues": [
                 {
-                    "name": "Material Thickness",
-                    "ioValue": 19
-                },
-                {
                     "name": "Sheet Width",
-                    "ioValue": 1600
+                    "ioValue": 600
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 1200
+                    "ioValue": 200
                 },
                 {
                     "name": "Part Padding",
                     "ioValue": 6
-                },
-                {
-                    "name": "Sheet Padding",
-                    "ioValue": 76
                 }
-            ]
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
